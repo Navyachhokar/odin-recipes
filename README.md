@@ -1,0 +1,1 @@
+This is a simple landing page built as apart of The Odin Project curriculum.The basic idea or goal of this project is to apply the skills learnt in the foundational course of Html and git basics. 
