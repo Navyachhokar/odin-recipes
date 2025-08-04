@@ -84,8 +84,9 @@ span{
 
 .card{
     text-align: center;
+
 }
-.card div{
+.transition{
     background-color: rgb(121, 169, 150);
     padding: 20px;
     margin: 10px;
@@ -96,6 +97,13 @@ span{
     height: auto;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     border: 2px solid whitesmoke;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s;
+
+}
+.transition:hover,
+.transition:focus-within {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.25);
 }
 .card div img{
     margin:20px;
