@@ -25,12 +25,13 @@ nav button{
     font-weight: bold;
     cursor: pointer;
     border-radius: 5px;
+    color:#333;
 }
 
-nav button:hover{
-    color:white;
+nav button:hover {
     background-color: grey;
     transition: 0.3s;
+    color: white;
 }
 
 .container1{
