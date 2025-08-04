@@ -26,12 +26,13 @@ nav button{
     cursor: pointer;
     border-radius: 5px;
 }
-nav a{
-    text-decoration: none;
-    color: black;
-    /* font-weight: bold; */
-    padding: 10px;
+
+nav button:hover{
+    color:white;
+    background-color: grey;
+    transition: 0.3s;
 }
+
 .container1{
     text-align: center;
     background-color: rgb(230, 208, 180);
@@ -145,3 +146,4 @@ p{
     margin: 40px 0px 0px 0px;
     overflow: hidden;
 }
+
