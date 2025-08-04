@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*,*::before, *::after {
+    box-sizing: inherit;
+}
+body{
+    background-color:bisque;
+    overflow-x: hidden;
+}
+nav{
+    background-color: seashell;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+nav button{
+    background-color:rgb(223, 223, 220);
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    /* font-weight: bold; */
+    padding: 10px;
+}
+.container1{
+    text-align: center;
+    background-color: rgb(230, 208, 180);
+    width: 80%;
+    margin: auto;
+    padding: auto;
+    
+}
+.heading1{
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: rgba(165, 42, 42, 0.392);
+    text-shadow: #333 1px 1px 2px;
+    
+    
+}
+section{
+    display: inline-block;
+    column-count: 1;
+}
+.hero-image{
+    width:100%;
+    height: 600px;
+    background-image: url("../images/cheesecake.jpg.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    
+}
+
+
+.instructions{
+    background-color: rosybrown;
+    padding: 1em;
+    margin: 1em;
+    width: 80%;
+    text-align: center;
+    line-height: 2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+
+}
+
+.instructions h2{
+    text-align: center;
+    color: white;
+    padding: 0.5em;
+    font-size:2em;
+    text-shadow: #333 1px 1px 2px;
+    background-color:blanchedalmond;
+    border-radius: 10px;
+}
+.instructions ul {
+    list-style-type: none;
+    padding: 1em;
+    font-size: 1em;
+
+}
+
+.steps{
+    background-color: lightcoral;
+    margin:2em;
+    padding: 1em;
+    width: 80%;
+    text-align: left;
+    line-height: 2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.steps h2{
+    text-align: center;
+    color: white;
+    padding: 0.5em;
+    font-size:2em;
+    text-shadow: #333 1px 1px 2px;
+    background-color:blanchedalmond;
+    border-radius: 10px;
+
+}
+.steps ol {
+    padding: 1em;
+    margin:1rem;
+    font-size: 1em;
+}
+.description{
+    background-color: lightgoldenrodyellow;
+    padding: 1em;
+    margin: 1em;
+    width: auto;
+    text-align: center;
+    line-height: 2;
+}
+
+p{
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.footer {
+    /* position: fixed; */
+    text-align: center;
+    padding: 20px;
+    background-color: seashell;
+    /* bottom: 0%; */
+    height:100px;
+    width: 100%;
+    margin: 40px 0px 0px 0px;
+    overflow: hidden;
+}
